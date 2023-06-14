@@ -9,3 +9,15 @@ body {
 .list-disc > li {
     @apply ml-6;
 }
+
+/* table.map-diagram {
+    @apply border-8 border-amber-950
+} */
+
+table.map-diagram td {
+    @apply border-4 border-amber-950
+}
+
+td.empty-cell {
+    @apply border-0 !important;
+}

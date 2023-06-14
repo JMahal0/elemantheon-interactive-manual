@@ -47,23 +47,79 @@ const GameSetup: NextPage = () => {
                 <p>
                     A 2-player game uses 17 W, 3 C1, 2 C2, 1 C3, and 2 PS cards.
                 </p>
-                {/* Image/diagram here */}
+                2-player Map
+                <table className="map-diagram">
+                    <tbody>
+                    <tr><td>PS</td><td>W</td><td>W</td><td>W</td><td>C2</td></tr>
+                    <tr><td>W</td><td>W</td><td>W</td><td>C1</td><td>W</td></tr>
+                    <tr><td>C1</td><td>W</td><td>C3</td><td>W</td><td>W</td></tr>
+                    <tr><td>W</td><td>W</td><td>W</td><td>W</td><td>W</td></tr>
+                    <tr><td>C2</td><td>W</td><td>C1</td><td>W</td><td>PS</td></tr>
+                    </tbody>
+                </table>
+
                 <p>
                     A 3-player game uses 21 W, 4 C1, 3 C2, 1 C3, and 3 PS cards.
                 </p>
-                {/* Image/diagram here */}
+                3-player Map
+                <table className="map-diagram">
+                    <tbody>
+                    <tr><td className="empty-cell"></td><td>C1</td><td>PS</td><td>W</td><td>C1</td><td className="empty-cell"></td></tr>
+                    <tr><td>W</td><td>W</td><td>W</td><td>W</td><td>W</td><td>W</td></tr>
+                    <tr><td>W</td><td>C2</td><td>W</td><td>W</td><td>C2</td><td>W</td></tr>
+                    <tr><td>W</td><td>W</td><td>W</td><td>C3</td><td>W</td><td>W</td></tr>
+                    <tr><td>PS</td><td>W</td><td>C2</td><td>W</td><td>W</td><td>PS</td></tr>
+                    <tr><td className="empty-cell"></td><td>C1</td><td>W</td><td>W</td><td>C1</td><td className="empty-cell"></td></tr>
+                    </tbody>
+                </table>
+
                 <p>
                     A 4-player game uses 24 W, 4 C1, 3 C2, 2 C3, 1 C4, and 4 PS cards.
                 </p>
-                {/* Image/diagram here */}
+                4-player Map
+                <table className="map-diagram">
+                    <tbody>
+                    <tr><td className="empty-cell"></td><td>PS</td><td>W</td><td>C3</td><td>W</td><td>PS</td><td className="empty-cell"></td></tr>
+                    <tr><td>C1</td><td>W</td><td>W</td><td>C2</td><td>W</td><td>W</td><td>C1</td></tr>
+                    <tr><td>W</td><td>W</td><td>W</td><td>C4</td><td>W</td><td>W</td><td>W</td></tr>
+                    <tr><td>W</td><td>C2</td><td>W</td><td>W</td><td>W</td><td>C2</td><td>W</td></tr>
+                    <tr><td>C1</td><td>W</td><td>W</td><td>W</td><td>W</td><td>W</td><td>C1</td></tr>
+                    <tr><td className="empty-cell"></td><td>PS</td><td>W</td><td>C3</td><td>W</td><td>PS</td><td className="empty-cell"></td></tr>
+                    </tbody>
+                </table>
+
                 <p>
                     A 5-player game uses 28 W, 5 C1, 4 C2, 2 C3, 1 C4, and 5 PS cards.
                 </p>
-                {/* Image/diagram here */}
+                5-player Map
+                <table className="map-diagram">
+                    <tbody>
+                    <tr><td className="empty-cell"></td><td>C1</td><td>W</td><td>PS</td><td>W</td><td>C1</td><td className="empty-cell"></td></tr>
+                    <tr><td>W</td><td>W</td><td>W</td><td>W</td><td>W</td><td>W</td><td>W</td></tr>
+                    <tr><td>PS</td><td>W</td><td>C2</td><td>W</td><td>C2</td><td>W</td><td>PS</td></tr>
+                    <tr><td>W</td><td>C3</td><td>W</td><td>C4</td><td>W</td><td>C3</td><td>W</td></tr>
+                    <tr><td>W</td><td>W</td><td>C2</td><td>W</td><td>C2</td><td>W</td><td>W</td></tr>
+                    <tr><td>C1</td><td>W</td><td>W</td><td>W</td><td>W</td><td>W</td><td>C1</td></tr>
+                    <tr><td className="empty-cell"></td><td>PS</td><td>W</td><td>C1</td><td>W</td><td>PS</td><td className="empty-cell"></td></tr>
+                    </tbody>
+                </table>
+
                 <p>
-                    A 6-player game uses 32 W, 5 C1, 5 C2, 3 C3, 2 C4, and 6 PS cards.
+                    A 6-player game uses 32 W, 5 C1, 4 C2, 3 C3, 2 C4, and 6 PS cards.
                 </p>
-                {/* Image/diagram here */}
+                6-player Map
+                <table className="map-diagram">
+                    <tbody>
+                    <tr><td className="empty-cell"></td><td className="empty-cell"></td><td>C1</td><td>W</td><td>W</td><td>PS</td><td className="empty-cell"></td><td className="empty-cell"></td></tr>
+                    <tr><td className="empty-cell"></td><td>PS</td><td>W</td><td>W</td><td>C2</td><td>W</td><td>C1</td><td className="empty-cell"></td></tr>
+                    <tr><td>W</td><td>W</td><td>W</td><td>C3</td><td>W</td><td>W</td><td>W</td><td>PS</td></tr>
+                    <tr><td>W</td><td>C2</td><td>W</td><td>W</td><td>C4</td><td>C3</td><td>W</td><td>W</td></tr>
+                    <tr><td>C1</td><td>W</td><td>W</td><td>C4</td><td>W</td><td>W</td><td>C2</td><td>W</td></tr>
+                    <tr><td>PS</td><td>W</td><td>C3</td><td>W</td><td>W</td><td>W</td><td>W</td><td>C1</td></tr>
+                    <tr><td className="empty-cell"></td><td>W</td><td>W</td><td>C2</td><td>W</td><td>W</td><td>PS</td><td className="empty-cell"></td></tr>
+                    <tr><td className="empty-cell"></td><td className="empty-cell"></td><td>PS</td><td>C1</td><td>W</td><td>W</td><td className="empty-cell"></td><td className="empty-cell"></td></tr>
+                    </tbody>
+                </table>
 
                 <p>
                     First, place the wilderness and city cards. Each card can be rotated randomly.
