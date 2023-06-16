@@ -1,6 +1,7 @@
 import { type NextPage } from "next";
 import HeadTag from "../components/HeadTag"
 import ContentSection from "../components/ContentSection";
+import NavBar from "~/components/NavBar";
 
 
 const ElementalAbilities: NextPage = () => {
@@ -8,6 +9,7 @@ const ElementalAbilities: NextPage = () => {
   return (
     <>
       <HeadTag />
+      <NavBar />
       <main className="flex justify-center h-screen">
         <div className="h-full w-full">
 

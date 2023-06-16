@@ -2,6 +2,7 @@ import { type NextPage } from "next";
 import HeadTag from "../components/HeadTag";
 import ContentSection from "../components/ContentSection";
 import Link from "next/link";
+import NavBar from "~/components/NavBar";
 
 
 const HowToPlay: NextPage = () => {
@@ -9,6 +10,7 @@ const HowToPlay: NextPage = () => {
   return (
     <>
       <HeadTag />
+      <NavBar />
       <main className="flex justify-center h-screen">
         <div className="h-full w-full">
 
