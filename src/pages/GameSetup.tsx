@@ -1,6 +1,7 @@
 import { type NextPage } from "next";
-import HeadTag from "../components/HeadTag"
+import HeadTag from "../components/HeadTag";
 import ContentSection from "../components/ContentSection";
+import Link from "next/link";
 
 
 const GameSetup: NextPage = () => {
@@ -12,7 +13,7 @@ const GameSetup: NextPage = () => {
         <div className="h-full w-full">
 
             <div className="text-4xl text-center font-extrabold py-8">
-            Game Setup
+                Game Setup
             </div>
 
             <ContentSection sectionTitle="Choosing Elements" paragraphsJsx={<>
@@ -133,10 +134,16 @@ const GameSetup: NextPage = () => {
                 <p>
                     Finally, place your Avatar piece on your spawn tile, the tile that has your element icon.
                 </p>
+                <p>
+                    All Avatars start with 6 Health so put all players' heart pieces on the 6 on the Wheel of Rebirth.
+                    As players get damaged and lose Health, move their heart pieces to the correct place on the Wheel of Rebirth.
+                </p>
 
             </>} />
 
-
+            <div className="flex p-4 max-w-sm mx-auto mb-8 bg-white rounded-xl shadow-lg">
+                <Link className="text-xl font-semibold text-center w-full" href="/GameObjective">{"Next >"}</Link>
+            </div>
         </div>
       </main>
     </>
