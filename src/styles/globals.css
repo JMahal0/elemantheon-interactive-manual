@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    @apply bg-amber-50 text-amber-950;
+}
+
+.list-disc > li {
+    @apply ml-6;
+}
+
+table.map-diagram td {
+    @apply border-4 border-amber-950
+}
+
+td.empty-cell {
+    @apply border-0 !important;
+}
