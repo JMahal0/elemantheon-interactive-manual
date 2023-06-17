@@ -45,7 +45,7 @@ const ElementalAbilities: NextPage = () => {
 
           <ContentSection sectionTitle="God of Air" paragraphsJsx={<>
             <p>
-              <span className="font-semibold">Active Ability - Howling Headwinds:</span> All other players' Speed gets reduced to 2 until your next turn.
+              <span className="font-semibold">Active Ability - Howling Headwinds:</span> All other players&apos; Speed gets reduced to 2 until your next turn.
             </p>
             <p>
               <span className="font-semibold">Passive Ability - Free Flight:</span> All tiles cost only 1 Speed to enter.

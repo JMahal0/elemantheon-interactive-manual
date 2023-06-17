@@ -137,7 +137,7 @@ const GameSetup: NextPage = () => {
                     Finally, place your Avatar piece on your spawn tile, the tile that has your element icon.
                 </p>
                 <p>
-                    All Avatars start with 6 Health so put all players' heart pieces on the 6 on the Wheel of Rebirth.
+                    All Avatars start with 6 Health so put all players&apos; heart pieces on the 6 on the Wheel of Rebirth.
                     As players get damaged and lose Health, move their heart pieces to the correct place on the Wheel of Rebirth.
                 </p>
 

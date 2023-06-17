@@ -21,7 +21,7 @@ const GameObjective: NextPage = () => {
           <ContentSection sectionTitle="How to Win" paragraphsJsx={<>
             <p>
               You are one of many elemental gods trying to be the supreme ruler of the gods.
-              You all decide that the measure of a god's power is their influence and following.
+              You all decide that the measure of a god&apos;s power is their influence and following.
               Thus, you all reincarnate into Avatars in the mortal world and compete to gain the most influence via cities and followers.
             </p>
             <p>
@@ -62,8 +62,8 @@ const GameObjective: NextPage = () => {
               Followers can be placed in a city that a player controls to give that city a defense bonus against other players that would try to convert the city.
             </p>
             <p>
-              Followers that are in the player's hand (not defending any city) can give the player an offense bonus for converting other cities.
-              They also can be sacrificed in order to use the god's Active Ability.
+              Followers that are in the player&apos;s hand (not defending any city) can give the player an offense bonus for converting other cities.
+              They also can be sacrificed in order to use the god&apos;s Active Ability.
             </p>
           </>} />
 

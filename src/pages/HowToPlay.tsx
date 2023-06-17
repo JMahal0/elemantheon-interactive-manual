@@ -57,7 +57,7 @@ const HowToPlay: NextPage = () => {
             </p>
             <p>
               You can move through a tile that another player is currently on but you cannot perform an action or end your turn on an already occupied tile.
-              Similarly, you can move through another player's spawn tile, but you cannot end your turn there.
+              Similarly, you can move through another player&apos;s spawn tile, but you cannot end your turn there.
             </p>
           </>} />
 
@@ -67,8 +67,8 @@ const HowToPlay: NextPage = () => {
               into one of your cities to be defenders and you can collect defenders already in cities back into your hand.
             </p>
             <p>
-              Placing defenders in a city gives the city a defense bonus against other players' attempts to convert it.
-              Each defender gives a +2 defense bonus. The God of Metal's Passive Ability makes each defender give a +3 defense bonus. Followers can give a max defense bonus of +6.
+              Placing defenders in a city gives the city a defense bonus against other players&apos; attempts to convert it.
+              Each defender gives a +2 defense bonus. The God of Metal&apos;s Passive Ability makes each defender give a +3 defense bonus. Followers can give a max defense bonus of +6.
             </p>
             <p className="font-semibold">
               Placing and collecting defenders is a free action.
@@ -87,7 +87,7 @@ const HowToPlay: NextPage = () => {
               The targeted player moves their heart piece on the Wheel of Rebirth to update their Health amount.
             </p>
             <p>
-              You kill the targeted player's Avatar, if their health falls below 1. The killer God gains one follower can steal either one city or one follower from the killed.
+              You kill the targeted player&apos;s Avatar, if their health falls below 1. The killer God gains one follower can steal either one city or one follower from the killed.
               The killed removes their Avatar from the map and waits to be reincarnated on their next turn. 
             </p>
             <p className="font-semibold">
@@ -104,11 +104,11 @@ const HowToPlay: NextPage = () => {
             </p>            {/* Show an image of the shield */}
             <p>
               When you try to convert an unclaimed city, you roll a standard 6 sided die, aka D6.
-              To succeed, the D6 result + Follower Offense Bonus must be higher than the city's defense.
+              To succeed, the D6 result + Follower Offense Bonus must be higher than the city&apos;s defense.
             </p>
             <p>
-              When you try to convert another player's city, both roll the D6.
-              To succeed, the attacker's D6 result + Follower Offense Bonus must be higher than the city's defense + the defender's D6 result + Follower Defense Bonus.
+              When you try to convert another player&apos;s city, both roll the D6.
+              To succeed, the attacker&apos;s D6 result + Follower Offense Bonus must be higher than the city&apos;s defense + the defender&apos;s D6 result + Follower Defense Bonus.
             </p>
               <span className="font-semibold">Follower Offense Bonus:</span> Attacking players get +2 Offense for every follower in their hand. The maximum bonus is +6.
             <p>
@@ -118,7 +118,7 @@ const HowToPlay: NextPage = () => {
               The Gods of Thunder and Metal have Passive Abilities that affect their bonuses from followers.
             </p>
             <p>
-              If a city that has defenders gets converted, then the defending followers go back into the defending player's hand.
+              If a city that has defenders gets converted, then the defending followers go back into the defending player&apos;s hand.
             </p>
             <p>
               The conversion fails when there is a tie. If the conversion attempt fails, then the attacker loses 1 Health.
@@ -134,7 +134,7 @@ const HowToPlay: NextPage = () => {
 
           <ContentSection sectionTitle="Using an Active Ability" paragraphsJsx={<>
             <p>
-              If you have at least 1 follower in your hand, you can choose to sacrifice 1 follower to perform your God's Active Ability.
+              If you have at least 1 follower in your hand, you can choose to sacrifice 1 follower to perform your God&apos;s Active Ability.
               When you use an Active Ability, discard a follower token from your hand.
             </p>
             <p className="font-semibold">
@@ -144,7 +144,7 @@ const HowToPlay: NextPage = () => {
 
           <ContentSection sectionTitle="Dying and Reincarnating" paragraphsJsx={<>
             <p>
-              If your Avatar's Health goes below 1, they die and you remove the Avatar piece from the map.
+              If your Avatar&apos;s Health goes below 1, they die and you remove the Avatar piece from the map.
             </p>
             <p>
               At the start of your next turn, your God reincarnates and you put you Avatar piece back on the map. 
