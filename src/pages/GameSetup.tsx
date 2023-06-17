@@ -54,7 +54,7 @@ const GameSetup: NextPage = () => {
                     </ul>
 
                     <p>There can be 2 to 6 players in a game. How many players do you have?
-                    <select className="ml-2" value={numPlayers} onChange={handleNumPlayersChange}>
+                    <select className="ml-2 p-1 rounded-lg" value={numPlayers} onChange={handleNumPlayersChange}>
                         <option value="2">2</option>
                         <option value="3">3</option>
                         <option value="4">4</option>
