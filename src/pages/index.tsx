@@ -12,7 +12,7 @@ const Home: NextPage = () => {
         <div className="h-full w-full">
 
           <div className="text-4xl text-center font-extrabold py-8">
-            Elemantheon Instruction Manual
+            Elemantheon Interactive Instruction Manual
           </div>
 
           <div className="flex p-4 max-w-sm mx-auto mb-4 bg-white rounded-xl shadow-lg">

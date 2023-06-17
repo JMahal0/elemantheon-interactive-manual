@@ -16,6 +16,7 @@ const ElementalAbilities: NextPage = () => {
           <div className="text-4xl text-center font-extrabold py-8">
             Elemental Abilities
           </div>
+                      {/* All of these could have an interactive part*/}
 
           <ContentSection sectionTitle="God of Fire" paragraphsJsx={<>
             <p>

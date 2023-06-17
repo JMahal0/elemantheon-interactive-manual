@@ -51,7 +51,7 @@ const HowToPlay: NextPage = () => {
               You can move your Avatar to any tile that is 4 or less Speed away from their current location.
               There are multiple way to get to the same tile, but depending on the terrain, some paths might cost more Speed than others.
             </p>
-            {/* This should have an interactive part in the other one */}
+            {/* This should have an interactive part*/}
             <p>
               The Gods of Water, Air, and Land have Passive Abilities that change how they are affected by terrain.
             </p>
@@ -62,6 +62,7 @@ const HowToPlay: NextPage = () => {
           </>} />
 
           <ContentSection sectionTitle="Placing and Collecting Defenders" paragraphsJsx={<>
+            {/* This should have an interactive part*/}
             <p>
               If you are on your spawn tile or a city tile that you already control, then you can place followers from your hand 
               into one of your cities to be defenders and you can collect defenders already in cities back into your hand.
@@ -82,6 +83,7 @@ const HowToPlay: NextPage = () => {
           </>} />
 
           <ContentSection sectionTitle="Attacking" paragraphsJsx={<>
+            {/* This should have an interactive part*/}
             <p>
               If you are on a tile adjacent (diagonals are not adjacent) to another player, you can attack the other player to reduce their Health by 2.
               The targeted player moves their heart piece on the Wheel of Rebirth to update their Health amount.
@@ -96,6 +98,7 @@ const HowToPlay: NextPage = () => {
           </>} />
 
           <ContentSection sectionTitle="Attempting to Convert a City" paragraphsJsx={<>
+            {/* This should have an interactive part*/}
             <p>
               If you are on a city tile that you do not currently control, you can attempt to convert the city to follow you.
             </p>
@@ -149,6 +152,7 @@ const HowToPlay: NextPage = () => {
             <p>
               At the start of your next turn, your God reincarnates and you put you Avatar piece back on the map. 
               You can choose to place your Avatar on your spawn tile or on any city tile that you currently control.
+            {/* This should have an interactive part*/}
             </p>
             <p className="font-semibold">
               Reincarnating is a free action.

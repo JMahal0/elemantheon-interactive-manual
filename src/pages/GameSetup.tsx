@@ -36,6 +36,7 @@ const GameSetup: NextPage = () => {
             </>} />
 
             <ContentSection sectionTitle="Map Setup" paragraphsJsx={<>
+                        {/* This should have an interactive part. Ask the user to select btwn 2-6 and only show the appropriate map*/}
                 <p>
                     Next, we will build the map out of the map cards. Each card has 4 tiles on the front.
                 </p>
