@@ -3,7 +3,7 @@ import HeadTag from "../components/HeadTag";
 import ContentSection from "../components/ContentSection";
 import Link from "next/link";
 import NavBar from "~/components/NavBar";
-import GameSection from "~/components/GameSection";
+import BasicMovement from "~/components/interactivity/BasicMovement";
 
 
 const HowToPlay: NextPage = () => {
@@ -52,7 +52,7 @@ const HowToPlay: NextPage = () => {
               You can move your Avatar to any tile that is 4 or less Speed away from their current location.
               There are multiple way to get to the same tile, but depending on the terrain, some paths might cost more Speed than others.
             </p>
-            <GameSection />
+            <BasicMovement />
 
             <p>
               The Gods of Water, Air, and Land have Passive Abilities that change how they are affected by terrain.

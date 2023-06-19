@@ -1,7 +1,7 @@
 import React, { useState} from "react";
 import Image from "next/image";
 
-const GameSection = () => {
+const BasicMovement = () => {
     const [isSelected, setIsSelected] = useState(false);
     const [selectedCharacter, setSelectedCharacter] = useState<HTMLElement | null>(null);
     const [characterLocation, setCharacterLocation] = useState({x: 0, y: 1});
@@ -30,7 +30,7 @@ const GameSection = () => {
             x: 15 + 50*x,
             y: 15 + 50*y,
         };
-        console.log(`Player was at ${characterLocation.x},${characterLocation.y}. Now it's at ${x},${y}`);
+        //console.log(`Player was at ${characterLocation.x},${characterLocation.y}. Now it's at ${x},${y}`);
         selectedCharacter.style.left = `${targetLocation.x}px`;
         selectedCharacter.style.top = `${targetLocation.y}px`;
 
@@ -73,4 +73,4 @@ const GameSection = () => {
 
 };
 
-export default GameSection;
+export default BasicMovement;
