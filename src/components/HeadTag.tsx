@@ -6,7 +6,7 @@ const HeadTag = () => {
         <Head>
             <title>Elemantheon Manual</title>
             <meta name="description" content="Interactive instruction manual for the Elemantheon board game (experiment)" />
-            <link rel="icon" href="/logo-wordless transparent bg.png" />
+            <link rel="icon" type="image/png" href="/logo-wordless transparent bg.png" />
         </Head>
     );
 }

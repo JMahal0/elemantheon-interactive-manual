@@ -3,6 +3,7 @@ import HeadTag from "../components/HeadTag";
 import ContentSection from "../components/ContentSection";
 import Link from "next/link";
 import NavBar from "~/components/NavBar";
+import GameSection from "~/components/GameSection";
 
 
 const HowToPlay: NextPage = () => {
@@ -51,7 +52,8 @@ const HowToPlay: NextPage = () => {
               You can move your Avatar to any tile that is 4 or less Speed away from their current location.
               There are multiple way to get to the same tile, but depending on the terrain, some paths might cost more Speed than others.
             </p>
-            {/* This should have an interactive part*/}
+            <GameSection />
+
             <p>
               The Gods of Water, Air, and Land have Passive Abilities that change how they are affected by terrain.
             </p>
@@ -59,6 +61,7 @@ const HowToPlay: NextPage = () => {
               You can move through a tile that another player is currently on but you cannot perform an action or end your turn on an already occupied tile.
               Similarly, you can move through another player&apos;s spawn tile, but you cannot end your turn there.
             </p>
+
           </>} />
 
           <ContentSection sectionTitle="Placing and Collecting Defenders" paragraphsJsx={<>
