@@ -2,6 +2,9 @@ import { type NextPage } from "next";
 import HeadTag from "../components/HeadTag"
 import ContentSection from "../components/ContentSection";
 import NavBar from "~/components/NavBar";
+import WaterMovement from "~/components/interactivity/WaterMovement";
+import AirMovement from "~/components/interactivity/AirMovement";
+import LandMovement from "~/components/interactivity/LandMovement";
 
 
 const ElementalAbilities: NextPage = () => {
@@ -42,6 +45,7 @@ const ElementalAbilities: NextPage = () => {
             <p>
               <span className="font-semibold">Passive Ability - Water Walker:</span> Lake tiles cost only 1 Speed to enter.
             </p>
+            <WaterMovement />
           </>} />
 
           <ContentSection sectionTitle="God of Air" paragraphsJsx={<>
@@ -51,6 +55,7 @@ const ElementalAbilities: NextPage = () => {
             <p>
               <span className="font-semibold">Passive Ability - Free Flight:</span> All tiles cost only 1 Speed to enter.
             </p>
+            <AirMovement />
           </>} />
 
           <ContentSection sectionTitle="God of Land" paragraphsJsx={<>
@@ -63,6 +68,7 @@ const ElementalAbilities: NextPage = () => {
             <p>
               Additionally, if you attack a player that is standing on a desert tile, they lose 3 Health instead of 2.
             </p>
+            <LandMovement />
           </>} />
 
           <ContentSection sectionTitle="God of Thunder" paragraphsJsx={<>
