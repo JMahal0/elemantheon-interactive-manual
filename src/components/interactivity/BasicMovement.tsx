@@ -67,7 +67,7 @@ const BasicMovement = () => {
 
             <Image width={25} height={25} alt="fire icon" src={"/images/fire icon.png"} className="absolute top-[65px] left-[15px] z-10" onClick={onPlayerClick} />
             {isWarningVisible && <div className="text-center text-red-500">You can't reach there from where you started</div>}
-            <div className="text-center text-slate-50">Practive Moving</div>
+            <div className="text-center text-slate-50">Practice Moving</div>
         </div>    
     );
 
