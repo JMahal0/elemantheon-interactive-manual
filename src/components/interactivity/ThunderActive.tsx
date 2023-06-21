@@ -39,16 +39,16 @@ const ThunderActive = () => {
             return;
         }
 
+        const row = unReachableLocations[characterLocation.y];
         // logic dealing with speed costs
-        if (unReachableLocations[characterLocation.y][characterLocation.x]?.some(point => point.x === x && point.y === y)) {
+        if (typeof row !== 'undefined' && row[characterLocation.x]?.some(point => point.x === x && point.y === y)) {
             setWarningContent("You can't reach there from where you started");
             setIsWarningVisible(true);
             return;
         }
 
         //move the dude
-        const rect = event.currentTarget.getBoundingClientRect();
-        let targetLocation = {
+        const targetLocation = {
             x: 15 + 50*x,
             y: 15 + 50*y,
         };
@@ -73,7 +73,7 @@ const ThunderActive = () => {
         setIsSelected(true);
     }
 
-    const onAttackClick = (event: React.MouseEvent<HTMLElement>) => {
+    const onAttackClick = () => {
         setEnemyHealth(enemyHealth - 2);
         if (enemyHealth - 2 <= 0) {
             setIsEnemyVisible(false);

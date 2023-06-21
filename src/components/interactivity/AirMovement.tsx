@@ -18,15 +18,15 @@ const AirMovement = () => {
             return;
         }
 
+        const row = unReachableLocations[characterLocation.y];
         // logic dealing with speed costs
-        if (unReachableLocations[characterLocation.y][characterLocation.x]?.some(point => point.x === x && point.y === y)) {
+        if (typeof row !== 'undefined' && row[characterLocation.x]?.some(point => point.x === x && point.y === y)) {
             setIsWarningVisible(true);
             return;
         }
 
         //move the dude
-        const rect = event.currentTarget.getBoundingClientRect();
-        let targetLocation = {
+        const targetLocation = {
             x: 15 + 50*x,
             y: 15 + 50*y,
         };
@@ -70,7 +70,7 @@ const AirMovement = () => {
                 </div>
 
                 <Image width={25} height={25} alt="air icon" src={"/images/air icon.png"} className="absolute top-[65px] left-[15px] z-10" onClick={onPlayerClick} />
-                {isWarningVisible && <div className="text-center text-red-500">You can't reach there from where you started</div>}
+                {isWarningVisible && <div className="text-center text-red-500">You cannot reach there from where you started</div>}
             </div>
         </>
     );

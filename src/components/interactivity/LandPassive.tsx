@@ -36,16 +36,16 @@ const LandPassive = () => {
             return;
         }
 
+        const row = unReachableLocations[characterLocation.y];
         // logic dealing with speed costs
-        if (unReachableLocations[characterLocation.y][characterLocation.x]?.some(point => point.x === x && point.y === y)) {
+        if (typeof row !== 'undefined' && row[characterLocation.x]?.some(point => point.x === x && point.y === y)) {
             setWarningContent("You can't reach there from where you started");
             setIsWarningVisible(true);
             return;
         }
 
         //move the dude
-        const rect = event.currentTarget.getBoundingClientRect();
-        let targetLocation = {
+        const targetLocation = {
             x: 15 + 50*x,
             y: 15 + 50*y,
         };
@@ -70,7 +70,7 @@ const LandPassive = () => {
         setIsSelected(true);
     }
 
-    const onAttackClick = (event: React.MouseEvent<HTMLElement>) => {
+    const onAttackClick = () => {
         setMetalHealth(metalHealth - 3);
         if (metalHealth - 3 == 0) {
             setIsMetalVisible(false);
@@ -108,7 +108,7 @@ const LandPassive = () => {
 
                 <Image width={25} height={25} alt="land icon" src={"/images/land icon.png"} className="absolute top-[65px] left-[15px] z-10" onClick={onPlayerClick} />
                 {isMetalVisible && <Image width={25} height={25} alt="metal icon" src={"/images/metal icon.png"} className="absolute top-[65px] left-[115px] z-10" />}
-                {isWarningVisible && <div className="text-center text-red-500">You can't reach there from where you started</div>}
+                {isWarningVisible && <div className="text-center text-red-500">{warningContent}</div>}
                 <button className="bg-amber-50 p-1 rounded-xl shadow-lg mt-1" onClick={onResetClick}>Reset</button>
             </div>
         </>
