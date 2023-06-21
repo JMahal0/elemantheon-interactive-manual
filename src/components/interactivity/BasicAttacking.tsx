@@ -13,6 +13,12 @@ const BasicAttacking = () => {
     const [waterHealth, setWaterHealth] = useState(6);
     const [isWaterVisible, setIsWaterVisible] = useState(true);
 
+    const onResetClick = () => {
+        if (typeof window !== 'undefined') {
+            window.location.reload();
+        }
+    }
+
     const unReachableLocations = [
         [[{x: 0, y: 2}, {x: 2, y: 2}, {x: 3, y: 2}], [{x: 0, y: 2}, {x: 2, y: 2}], [{x: 0, y: 2}, {x: 2, y: 2}], [{x: 0, y: 2}, {x: 2, y: 2}, {x: 1, y: 2}]],
         [[{x: 3, y: 1}, {x: 2, y: 2}, {x: 3, y: 2}], [{x: 0, y: 2}, {x: 2, y: 2}], [{x: 0, y: 2}], [{x: 0, y: 1}, {x: 0, y: 2}, {x: 1, y: 2}, {x: 2, y: 2}]],
@@ -24,7 +30,7 @@ const BasicAttacking = () => {
             return;
         }
 
-        if (x === 2 && y=== 1) {
+        if (isWaterVisible && x === 2 && y=== 1) {
             setWarningContent("You can't stop movement on another player's location");
             setIsWarningVisible(true);
             return;
@@ -103,6 +109,7 @@ const BasicAttacking = () => {
                 <Image width={20} height={20} alt="thunder icon" src={"/images/thunder icon.png"} className="absolute top-[65px] left-[15px] z-10" onClick={onPlayerClick} />
                 {isWaterVisible && <Image width={25} height={25} alt="water icon" src={"/images/water icon.png"} className="absolute top-[65px] left-[115px] z-10" />}
                 {isWarningVisible && <div className="text-center text-red-500">{warningContent}</div>}
+                <button className="bg-amber-50 p-1 rounded-xl shadow-lg mt-1" onClick={onResetClick}>Reset</button>
             </div>
         </>
     );
