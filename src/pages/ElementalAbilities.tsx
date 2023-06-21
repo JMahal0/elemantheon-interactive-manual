@@ -4,7 +4,7 @@ import ContentSection from "../components/ContentSection";
 import NavBar from "~/components/NavBar";
 import WaterMovement from "~/components/interactivity/WaterMovement";
 import AirMovement from "~/components/interactivity/AirMovement";
-import LandMovement from "~/components/interactivity/LandMovement";
+import LandPassive from "~/components/interactivity/LandPassive";
 
 
 const ElementalAbilities: NextPage = () => {
@@ -68,7 +68,7 @@ const ElementalAbilities: NextPage = () => {
             <p>
               Additionally, if you attack a player that is standing on a desert tile, they lose 3 Health instead of 2.
             </p>
-            <LandMovement />
+            <LandPassive />
           </>} />
 
           <ContentSection sectionTitle="God of Thunder" paragraphsJsx={<>

@@ -4,6 +4,7 @@ import ContentSection from "../components/ContentSection";
 import Link from "next/link";
 import NavBar from "~/components/NavBar";
 import BasicMovement from "~/components/interactivity/BasicMovement";
+import BasicAttacking from "~/components/interactivity/BasicAttacking";
 
 
 const HowToPlay: NextPage = () => {
@@ -95,6 +96,7 @@ const HowToPlay: NextPage = () => {
               You kill the targeted player&apos;s Avatar, if their health falls below 1. The killer God gains one follower can steal either one city or one follower from the killed.
               The killed removes their Avatar from the map and waits to be reincarnated on their next turn. 
             </p>
+            <BasicAttacking />
             <p className="font-semibold">
               Attacking is a primary action.
             </p>
