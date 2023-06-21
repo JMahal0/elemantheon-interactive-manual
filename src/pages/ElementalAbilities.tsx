@@ -5,6 +5,9 @@ import NavBar from "~/components/NavBar";
 import WaterMovement from "~/components/interactivity/WaterMovement";
 import AirMovement from "~/components/interactivity/AirMovement";
 import LandPassive from "~/components/interactivity/LandPassive";
+import ThunderActive from "~/components/interactivity/ThunderActive";
+import WaterActive from "~/components/interactivity/WaterActive";
+import LandActive from "~/components/interactivity/LandActive";
 
 
 const ElementalAbilities: NextPage = () => {
@@ -42,6 +45,7 @@ const ElementalAbilities: NextPage = () => {
               There can only be 1 flood at a time. The flood ends when you die. You can also end the flood at any time as a free action. End the flood by taking the Flood card off the map and back in your hand.
             </p>
             <p>If a city was under a flood, it becomes unclaimed when the flood ends.</p>
+            <WaterActive />
             <p>
               <span className="font-semibold">Passive Ability - Water Walker:</span> Lake tiles cost only 1 Speed to enter.
             </p>
@@ -62,6 +66,7 @@ const ElementalAbilities: NextPage = () => {
             <p>
               <span className="font-semibold">Active Ability - Divine Tectonics:</span> Choose any 2 cards on the map and swap them, along with anybody and anything on those cards.
             </p>
+            <LandActive />
             <p>
               <span className="font-semibold">Passive Ability - Shifty Sands:</span> Desert tiles cost only 1 Speed to enter.
             </p>
@@ -78,6 +83,7 @@ const ElementalAbilities: NextPage = () => {
             <p>
               Similar to Attacking, if you kill any players this way, you gain one follower and can steal either one city or one follower from the deceased.
             </p>
+            <ThunderActive />
             <p>
               <span className="font-semibold">Passive Ability - Electrifying Aura:</span> Each follower gives a Follower Offense Bonus of 3, instead of 2.
               The maximum Follower Offense Bonus is still 6.
