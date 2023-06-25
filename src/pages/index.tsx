@@ -16,19 +16,15 @@ const Home: NextPage = () => {
           </div>
 
           <div className="flex p-4 max-w-sm mx-auto mb-4 bg-white rounded-xl shadow-lg">
-            <Link className="text-2xl font-bold text-center w-full" href="/GameSetup">Game Setup</Link>
+            <Link className="text-2xl font-bold text-center w-full" href="/StartSetup">{"Start and Setup >"}</Link>
           </div>
 
           <div className="flex p-4 max-w-sm mx-auto mb-4 bg-white rounded-xl shadow-lg">
-            <Link className="text-2xl font-bold text-center w-full" href="/GameObjective">Game Objective</Link>
+            <Link className="text-2xl font-bold text-center w-full" href="/HowToPlay">{"How to Play >"}</Link>
           </div>
 
           <div className="flex p-4 max-w-sm mx-auto mb-4 bg-white rounded-xl shadow-lg">
-            <Link className="text-2xl font-bold text-center w-full" href="/HowToPlay">How to Play</Link>
-          </div>
-
-          <div className="flex p-4 max-w-sm mx-auto mb-4 bg-white rounded-xl shadow-lg">
-            <Link className="text-2xl font-bold text-center w-full" href="/ElementalAbilities">Elemental Abilities</Link>
+            <Link className="text-2xl font-bold text-center w-full" href="/ElementInfo">{"Element Info >"}</Link>
           </div>
 
         </div>

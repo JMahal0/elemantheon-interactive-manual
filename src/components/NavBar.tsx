@@ -10,16 +10,13 @@ const NavBar = () => {
                         <Link className="hover:text-gray-300" href="/">Home</Link>
                     </li>
                     <li>
-                        <Link className="hover:text-gray-300" href="/GameSetup">Game Setup</Link>
-                    </li>
-                    <li>
-                        <Link className="hover:text-gray-300" href="/GameObjective">Game Objective</Link>
+                        <Link className="hover:text-gray-300" href="/StartSetup">Start and Setup</Link>
                     </li>
                     <li>
                         <Link className="hover:text-gray-300" href="/HowToPlay">How to Play</Link>
                     </li>
                     <li>
-                        <Link className="hover:text-gray-300" href="/ElementalAbilities">Elemental Abilities</Link>
+                        <Link className="hover:text-gray-300" href="/ElementInfo">Element Info</Link>
                     </li>
                 </ul>
             </div>
