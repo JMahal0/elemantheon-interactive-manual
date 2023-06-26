@@ -6,7 +6,7 @@ import ChoosingElementsBasics from "~/components/infoContent/ChoosingElementsBas
 import TilesCardsBasics from "~/components/infoContent/TilesCardsBasics";
 import MapSetupBasics from "~/components/infoContent/MapSetupBasics";
 import WheelOfRebirth from "~/components/infoContent/WheelOfRebirth";
-
+import Link from "next/link";
 
 const GameSetup: NextPage = () => {
 
@@ -25,6 +25,10 @@ const GameSetup: NextPage = () => {
                 <TilesCardsBasics />
                 <MapSetupBasics />
                 <WheelOfRebirth />
+
+            <div className="flex p-4 max-w-sm mx-auto mb-4 bg-white rounded-xl shadow-lg">
+                <Link className="text-2xl font-bold text-center w-full" href="/HowToPlay">{"Next > How to Play"}</Link>
+            </div>
 
             </div>
         </main>

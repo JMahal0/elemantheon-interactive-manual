@@ -5,7 +5,7 @@ import ConvertingUnclaimedCity from "~/components/infoContent/ConvertingUnclaime
 import FollowerBonusBasics from "~/components/infoContent/FollowerBonusBasics";
 import ConvertingClaimedCity from "~/components/infoContent/ConvertingClaimedCity";
 import NavBar from "~/components/NavBar";
-
+import Link from "next/link";
 
 const HowToConvert: NextPage = () => {
 
@@ -25,6 +25,10 @@ const HowToConvert: NextPage = () => {
                     <FollowerBonusBasics />
                     <ConvertingUnclaimedCity />
                     <ConvertingClaimedCity />
+
+                    <div className="flex p-4 max-w-sm mx-auto mb-4 bg-white rounded-xl shadow-lg">
+                        <Link className="text-2xl font-bold text-center w-full" href="/HowToPlay">{"Back > How to Play"}</Link>
+                    </div>
 
                 </div>
             </main>

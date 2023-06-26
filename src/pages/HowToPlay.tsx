@@ -36,6 +36,10 @@ const HowToPlay: NextPage = () => {
           <UsingSuperAbility />
           <DyingReincarnating />
 
+          <div className="flex p-4 max-w-sm mx-auto mb-4 bg-white rounded-xl shadow-lg">
+            <Link className="text-2xl font-bold text-center w-full" href="/ElementInfo">{"Next > Element Info"}</Link>
+          </div>
+
         </div>
       </main>
     </>
