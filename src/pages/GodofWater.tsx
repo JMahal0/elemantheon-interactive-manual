@@ -25,6 +25,10 @@ const GodofFire: NextPage = () => {
                             Water&apos;s super ability is called The Great Flood
                         </li>
                         <li>
+                            The God of Water player gets the special Flood card at the start of the game
+                            <Image width={150} height={150} alt="flood card" src={"/images/flood card.png"} />
+                        </li>
+                        <li>
                             Discard a follower and you can put the Flood card on any map card you choose
                         </li>
                         <li>

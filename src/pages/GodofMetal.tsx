@@ -25,6 +25,10 @@ const GodofMetal: NextPage = () => {
                             Metal&apos;s super ability is called Robotic Disciple
                         </li>
                         <li>
+                            The God of Metal player gets the special Robot token at the start of the game
+                            <Image width={75} height={75} alt="robot token" src={"/images/robot token.png"} />
+                        </li>
+                        <li>
                             Discard a follower and use the Robot token as a second Avatar
                         </li>
                         <li>
