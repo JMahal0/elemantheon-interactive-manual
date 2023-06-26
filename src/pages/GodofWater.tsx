@@ -2,19 +2,22 @@ import { type NextPage } from "next";
 import HeadTag from "../components/HeadTag";
 import Image from "next/image";
 import ContentSection from "~/components/ContentSection";
+import NavBar from "~/components/NavBar";
 
 const GodofFire: NextPage = () => {
 
     return (
         <>
             <HeadTag />
+            <NavBar />
+
             <main className="flex justify-center h-screen">
                 <div className="h-full w-full">
 
                     <div className="text-4xl text-center font-extrabold pt-8">
                         <span>God of Water</span>
                     </div>
-                    <Image className="mx-auto pd-8" width={80} height={80} alt="water icon" src={"/images/water icon.png"} />
+                    <Image className="mx-auto pb-4" width={80} height={80} alt="water icon" src={"/images/water icon.png"} />
 
                     <ContentSection sectionTitle="Super Ability: The Great Flood" paragraphsJsx={<>
                         <ul className="list-disc">

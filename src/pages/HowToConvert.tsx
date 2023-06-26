@@ -4,6 +4,7 @@ import ConvertingBasics from "~/components/infoContent/ConvertingBasics";
 import ConvertingUnclaimedCity from "~/components/infoContent/ConvertingUnclaimedCity";
 import FollowerBonusBasics from "~/components/infoContent/FollowerBonusBasics";
 import ConvertingClaimedCity from "~/components/infoContent/ConvertingClaimedCity";
+import NavBar from "~/components/NavBar";
 
 
 const HowToConvert: NextPage = () => {
@@ -11,6 +12,8 @@ const HowToConvert: NextPage = () => {
     return (
         <>
             <HeadTag />
+            <NavBar />
+
             <main className="flex justify-center h-screen">
                 <div className="h-full w-full">
 

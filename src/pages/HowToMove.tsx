@@ -2,6 +2,7 @@ import { type NextPage } from "next";
 import HeadTag from "../components/HeadTag";
 import MovingBasics from "~/components/infoContent/MovingBasics";
 import SpecialMovement from "~/components/infoContent/SpecialMovement";
+import NavBar from "~/components/NavBar";
 
 
 const HowToMove: NextPage = () => {
@@ -9,6 +10,8 @@ const HowToMove: NextPage = () => {
     return (
         <>
             <HeadTag />
+            <NavBar />
+
             <main className="flex justify-center h-screen">
                 <div className="h-full w-full">
 
