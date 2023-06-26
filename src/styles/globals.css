@@ -8,6 +8,11 @@ body {
 
 .list-disc > li {
     @apply ml-6;
+    @apply p-1;
+}
+
+.list-disc {
+    @apply mt-2;
 }
 
 table.map-diagram td {
