@@ -46,12 +46,16 @@ const ChoosingElementsBasics = () => {
                 {/* // add images of a spawn card (God of Fire's Player Spawn card) */}
             </li>
             <li>
+                ex: God of Fire&apos;s Spawn card
+                <Image width={150} height={150} alt="spawn card" src={"/images/spawn card.png"} />
+            </li>
+            <li>
                 The God of Water player also gets the special Flood card
-                {/* //Add image of the flood card */}
+                <Image width={150} height={150} alt="flood card" src={"/images/flood card.png"} />
             </li>
             <li>
                 The God of Metal player also gets the special Robot token
-                {/* //Add image of the robot token */}
+                <Image width={75} height={75} alt="robot token" src={"/images/robot token.png"} />
             </li>
             </ul>
         </>} />

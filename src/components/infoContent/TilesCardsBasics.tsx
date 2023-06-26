@@ -35,23 +35,28 @@ const TilesCardsBasics = () => {
                 There are 6 types of cards
             </li>
             <li>
-                Player Spawn (PS) cards have an element icon //add image
+                Player Spawn (PS) cards have an element icon
+                <Image width={150} height={150} alt="spawn card" src={"/images/spawn card.png"} />
             </li>
             <li>
-                City 1 (C1) cards have 1 gray city tile //add image
+                City 1 (C1) cards have 1 gray city tile
+                <Image width={150} height={150} alt="size 1 city card" src={"/images/city1 card.png"} />
             </li>
             <li>
-                City 2 (C2) cards have 2 gray city tiles //add image
+                City 2 (C2) cards have 2 gray city tiles
+                <Image width={150} height={150} alt="size 2 city card" src={"/images/city2 card.png"} />
             </li>
             <li>
-                City 3 (C3) cards have 3 gray city tiles //add image
+                City 3 (C3) cards have 3 gray city tiles
+                <Image width={150} height={150} alt="size 3 city card" src={"/images/city3 card.png"} />
             </li>
             <li>
                 City 4 (C4) cards have 4 gray city tiles
-                <Image width={150} height={150} alt="size 4 city tile" src={"/images/city4 tile.png"} />
+                <Image width={150} height={150} alt="size 4 city card" src={"/images/city4 tile.png"} />
             </li>
             <li>
-                The rest are Wilderness (W) cards. They do not have any gray city tiles or element icons //add image
+                The rest are Wilderness (W) cards. They do not have any gray city tiles or element icons
+                <Image width={150} height={150} alt="wilderness card" src={"/images/wilderness card.png"} />
             </li>
 
 

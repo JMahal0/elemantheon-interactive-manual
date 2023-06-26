@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Dropdown from "../Dropdown";
+import Image from "next/image";
 
 const MapSetupBasics = () => {
     const [numPlayers, setNumPlayers] = useState("");
@@ -131,6 +132,11 @@ const MapSetupBasics = () => {
                     Finally, put your Avatar piece on your spawn card on the tile that has your element icon
                     {/* //add an image of the spawn tile (God of Air's starting tile) */}
                 </li>
+                <li>
+                    ex: God of Air&apos;s Spawn tile
+                    <Image width={75} height={75} alt="spawn tile" src={"/images/spawn tile.png"} />
+                </li>
+
             </> }
             </ul>
         </>}/>
