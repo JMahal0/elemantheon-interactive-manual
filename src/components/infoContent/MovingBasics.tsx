@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Dropdown from "../Dropdown";
+import BasicMovement from "../interactivity/BasicMovement";
 
 const MovingBasics = () => {
     return (
@@ -45,6 +46,7 @@ const MovingBasics = () => {
                 {/* // Need an image to descibe this */}
             </li>
             </ul>
+            <BasicMovement />
         </>} />
     );
 }

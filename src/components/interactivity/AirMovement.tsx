@@ -46,8 +46,9 @@ const AirMovement = () => {
 
     return (
         <>
-            <div className="text-center font-semibold">Practice Moving as Air</div>
-            <div>Click on Air and then click on the tile you want to move to.</div>
+            <div className="text-center font-semibold">Free Flight Demo</div>
+            <div>Click on the Air icon and then click on the tile you want to move to.</div>
+            <div>Notice how you are not limited by the different types of the tiles, compared to the other Gods.</div>
 
             <div className="max-w-sm mx-auto my-2 p-1 bg-slate-800 rounded-lg relative">
                 <div className="flex">

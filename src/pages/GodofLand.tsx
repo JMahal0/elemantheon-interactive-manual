@@ -3,6 +3,8 @@ import HeadTag from "../components/HeadTag";
 import Image from "next/image";
 import ContentSection from "~/components/ContentSection";
 import NavBar from "~/components/NavBar";
+import LandPassive from "~/components/interactivity/LandPassive";
+import LandActive from "~/components/interactivity/LandActive";
 
 const GodofLand: NextPage = () => {
 
@@ -31,6 +33,7 @@ const GodofLand: NextPage = () => {
                             You can rotate the cards as you switch them
                         </li>
                         </ul>
+                        <LandActive />
                     </>} />
 
                     <ContentSection sectionTitle="Passive Ability: Shifty Sands" paragraphsJsx={<>
@@ -45,6 +48,7 @@ const GodofLand: NextPage = () => {
                             Also, when you attack another player that is standing on a desert tile, they lose 3 Health instead of 2
                         </li>
                         </ul>
+                        <LandPassive />
                     </>} />
 
                 </div>

@@ -31,10 +31,14 @@ const GettingFollowers = () => {
                     <option value="6">6</option>
                 </select>
 
-                {numPlayers !== '' &&
-                <p>
-                    Place a follower on each card where an F is. Roll the dice to see which tile within the card the follower spawns on. 1 is top left, 2 is top right, 3 is bottom left, 4 is bottom right, reroll a 5 or 6. 
-                </p>
+                {numPlayers !== '' && <>
+                <li>
+                    Place a follower on each card where an F is.
+                </li>
+                <li>
+                    Roll the dice to see which tile within the card the follower spawns on. 1 is top left, 2 is top right, 3 is bottom left, 4 is bottom right, reroll a 5 or 6.
+                </li>
+                </>
                 }
 
                 {numPlayers === '2' &&

@@ -3,6 +3,8 @@ import HeadTag from "../components/HeadTag";
 import Image from "next/image";
 import ContentSection from "~/components/ContentSection";
 import NavBar from "~/components/NavBar";
+import WaterMovement from "~/components/interactivity/WaterMovement";
+import WaterActive from "~/components/interactivity/WaterActive";
 
 const GodofFire: NextPage = () => {
 
@@ -47,6 +49,7 @@ const GodofFire: NextPage = () => {
                             If a city was under a flood, it becomes unclaimed when the flood ends
                         </li>
                         </ul>
+                        <WaterActive />
                     </>} />
 
                     <ContentSection sectionTitle="Passive Ability: Water Walker" paragraphsJsx={<>
@@ -58,6 +61,7 @@ const GodofFire: NextPage = () => {
                             Blue lake tiles cost only 1 Speed to enter (just like green grassland and gray city tiles)
                         </li>
                         </ul>
+                        <WaterMovement />
                     </>} />
 
                 </div>

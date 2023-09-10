@@ -46,8 +46,9 @@ const BasicMovement = () => {
 
     return (
         <>
-            <div className="text-center font-semibold">Practice Moving</div>
-            <div>Click on Fire and then click on the tile you want to move to.</div>
+            <div className="text-center font-semibold">Movement Demo</div>
+            <div>Click on the Fire icon and then click on the tile you want to move to.</div> 
+            <div>Notice how far you can go and how you can move through more green tiles than brown or blue ones.</div>
 
             <div className="max-w-sm mx-auto my-2 p-1 bg-slate-800 rounded-lg relative">
                 <div className="flex">
@@ -70,7 +71,7 @@ const BasicMovement = () => {
                 </div>
 
                 <Image width={25} height={25} alt="fire icon" src={"/images/fire icon.png"} className="absolute top-[65px] left-[15px] z-10" onClick={onPlayerClick} />
-                {isWarningVisible && <div className="text-center text-red-500">You cannot reach there from where you started</div>}
+                {isWarningVisible && <div className="text-center text-red-500">You cannot reach there from your current position</div>}
             </div>
         </>
     );

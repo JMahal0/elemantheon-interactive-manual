@@ -3,6 +3,7 @@ import HeadTag from "../components/HeadTag";
 import Image from "next/image";
 import ContentSection from "~/components/ContentSection";
 import NavBar from "~/components/NavBar";
+import AirMovement from "~/components/interactivity/AirMovement";
 
 const GodofAir: NextPage = () => {
 
@@ -39,6 +40,7 @@ const GodofAir: NextPage = () => {
                             All tiles cost only 1 Speed to enter
                         </li>
                         </ul>
+                        <AirMovement />
                     </>} />
 
                 </div>
