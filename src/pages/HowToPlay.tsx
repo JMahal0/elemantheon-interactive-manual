@@ -8,6 +8,7 @@ import AttackingBasics from "~/components/infoContent/AttackingBasics";
 import PlacingCollectingDefenders from "~/components/infoContent/PlacingCollectingDefenders";
 import UsingSuperAbility from "~/components/infoContent/UsingSuperAbility";
 import DyingReincarnating from "~/components/infoContent/DyingReincarnating";
+import GettingFollowers from "~/components/infoContent/GettingFollowers";
 
 
 const HowToPlay: NextPage = () => {
@@ -25,6 +26,7 @@ const HowToPlay: NextPage = () => {
 
           <OnYourTurnBasics />
           <HowToWinBasics />
+          <GettingFollowers />
           <AttackingBasics />                    
           <PlacingCollectingDefenders />
           <div className="flex p-4 max-w-sm mx-auto mb-4 bg-white rounded-xl shadow-lg">
