@@ -38,10 +38,7 @@ const GodofMetal: NextPage = () => {
                             Place the robot heart piece on the 4 on the Wheel of Rebirth
                         </li>
                         <li>
-                            On your turn you can move both your Avatar and the Robot
-                        </li>
-                        <li>
-                            On your turn, if you attack or convert cities with the Robot you cannot attack or convert with your Avatar, and vice versa
+                            On your turn you can move and perform an action with both your Avatar and the Robot
                         </li>
                         <li>
                             There can only be 1 Robot at a time
