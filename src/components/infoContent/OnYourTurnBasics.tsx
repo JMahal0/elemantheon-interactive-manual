@@ -6,7 +6,7 @@ const OnYourTurnBasics = () => {
         <Dropdown sectionTitle="What to do on your Turn" paragraphsJsx={<>
             <ul className="list-disc">
             <li>
-                On your turn you can do many things
+                On your turn you can do many things:
             </li>
 
             <li>

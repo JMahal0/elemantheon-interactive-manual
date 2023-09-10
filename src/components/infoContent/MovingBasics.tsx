@@ -41,7 +41,7 @@ const MovingBasics = () => {
                 You can move through another player&apos;s spawn tile, but you cannot stop there
             </li>
             <li>
-                For example, the God of Fire can through 1 green and 1 brown tile to stop on a city tile because the total Speed cost of this path is 4.
+                For example, the God of Fire can move through 1 green and 1 brown tile to stop on a city tile because the total Speed cost of this path is 4.
                 {/* // Need an image to descibe this */}
             </li>
             </ul>
