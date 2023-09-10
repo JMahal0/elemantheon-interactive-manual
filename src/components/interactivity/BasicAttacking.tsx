@@ -80,8 +80,12 @@ const BasicAttacking = () => {
 
     return (
         <>
-            <div className="text-center font-semibold">As Thunder, practice attacking Water</div>
-            <div>Move next to Water and then attack.</div>
+            <div className="text-center font-semibold">Attacking Demo</div>
+            <div>Click on the Thunder icon and then click on the tile you want to move to.</div>
+            <div>Move next to Water and then Click the Attack button to attack it.</div>
+            <div>Notice that Water loses 2 Health with each attack.</div>
+            <div>You can click the Reset button to restart the demo.</div>
+            <div>In the game you can only attack once per turn, but this demo lets you see multiple attacks.</div>
 
             <div className="max-w-sm mx-auto my-2 p-1 bg-slate-800 rounded-lg relative">
                 <div className="flex">

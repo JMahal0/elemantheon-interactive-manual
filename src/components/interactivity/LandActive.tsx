@@ -22,8 +22,12 @@ const LandActive = () => {
 
     return (
         <>
-            <div className="text-center font-semibold">As Land, practice swapping 2 map cards</div>
-            <div>In this demo, the 2 cards the top-left and top-right cards are swapped and the top-right card is rotated 180 degrees. In the game, you can swap any 2 cards.</div>
+            <div className="text-center font-semibold">Divine Tectonics Demo</div>
+            <div>Click the Use Active Ability button to see how two map cards are swapped</div>
+            <div>In this demo, the cards the top-left and top-right cards are swapped and then the top-right card is rotated 180 degrees</div>
+            <div>In the game, you can swap any 2 cards and rotate them any way you like.</div>
+            <div>Notice how the number of followers decreases and that you need a follwer to use the Active Ability.</div>
+            <div>You can click the Reset button to restart the demo.</div>
 
             <div className="max-w-sm mx-auto my-2 p-1 bg-slate-800 rounded-lg relative">
                 <div className="flex">
@@ -34,7 +38,7 @@ const LandActive = () => {
                     <Image width={50} height={50} alt="field tile" src={"/images/field tile.png"} />
                     </>}
                     {isSwapActive && <>
-                    <Image width={50} height={50} alt="field tile" src={"/images/field tile.png"} />
+                    <Image width={50} height={50} alt="lake tile" src={"/images/lake tile.png"} />
                     <Image width={50} height={50} alt="desert tile" src={"/images/desert tile.png"} />
                     <Image width={50} height={50} alt="field tile" src={"/images/field tile.png"} />
                     <Image width={50} height={50} alt="field tile" src={"/images/field tile.png"} />
@@ -45,7 +49,7 @@ const LandActive = () => {
                     <Image width={50} height={50} alt="field tile" src={"/images/field tile.png"} />
                     <Image width={50} height={50} alt="desert tile" src={"/images/desert tile.png"} />
                     <Image width={50} height={50} alt="desert tile" src={"/images/desert tile.png"} />
-                    <Image width={50} height={50} alt="field tile" src={"/images/field tile.png"} />
+                    <Image width={50} height={50} alt="lake tile" src={"/images/lake tile.png"} />
                     </>}
                     {isSwapActive && <>
                     <Image width={50} height={50} alt="field tile" src={"/images/field tile.png"} />
@@ -55,8 +59,8 @@ const LandActive = () => {
                     </>}                    
                 </div>
                 <div className="flex">
-                    <Image width={50} height={50} alt="lake tile" src={"/images/lake tile.png"} />
                     <Image width={50} height={50} alt="field tile" src={"/images/field tile.png"} />
+                    <Image width={50} height={50} alt="lake tile" src={"/images/lake tile.png"} />
                     <Image width={50} height={50} alt="lake tile" src={"/images/lake tile.png"} />
                     <Image width={50} height={50} alt="field tile" src={"/images/field tile.png"} />
                 </div>

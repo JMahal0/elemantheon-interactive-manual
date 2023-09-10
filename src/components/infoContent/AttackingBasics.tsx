@@ -1,5 +1,6 @@
 import React from "react";
 import Dropdown from "../Dropdown";
+import BasicAttacking from "../interactivity/BasicAttacking";
 
 const AttackingBasics = () => {
     return (
@@ -18,6 +19,7 @@ const AttackingBasics = () => {
                 The killed player removes their Avatar from the map and will reincarnate on the start of their next turn
             </li>
             </ul>
+            <BasicAttacking />
         </>} />
     );
 }

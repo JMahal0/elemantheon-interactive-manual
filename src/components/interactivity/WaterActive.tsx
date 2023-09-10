@@ -30,8 +30,12 @@ const WaterActive = () => {
 
     return (
         <>
-            <div className="text-center font-semibold">As Water, practice placing and removing the Flood</div>
-            <div>In this demo, the flood will cover the top-right card. In the game, you can cover any card.</div>
+            <div className="text-center font-semibold">The Great Flood Demo</div>
+            <div>Click the Use Active Ability button to see how to flood a map card.</div>
+            <div>In this demo, the flood will cover the top-right card.</div>
+            <div>In the game, you can cover any card you like when you use the flood.</div>
+            <div>Notice how the number of followers decreases and that you need a follwer to use the Active Ability.</div>
+            <div>You can click the Reset button to restart the demo.</div>
 
             <div className="max-w-sm mx-auto my-2 p-1 bg-slate-800 rounded-lg relative">
                 <div className="flex">

@@ -3,6 +3,7 @@ import HeadTag from "../components/HeadTag";
 import Image from "next/image";
 import ContentSection from "~/components/ContentSection";
 import NavBar from "~/components/NavBar";
+import ThunderActive from "~/components/interactivity/ThunderActive";
 
 const GodofThunder: NextPage = () => {
 
@@ -27,6 +28,7 @@ const GodofThunder: NextPage = () => {
                             Discard a follower and attack a player anywhere on the map for 1 damage
                         </li>
                         </ul>
+                        <ThunderActive />
                     </>} />
 
                     <ContentSection sectionTitle="Passive Ability: Electrifying Aura" paragraphsJsx={<>

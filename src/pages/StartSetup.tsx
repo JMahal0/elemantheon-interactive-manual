@@ -7,6 +7,7 @@ import TilesCardsBasics from "~/components/infoContent/TilesCardsBasics";
 import MapSetupBasics from "~/components/infoContent/MapSetupBasics";
 import WheelOfRebirth from "~/components/infoContent/WheelOfRebirth";
 import Link from "next/link";
+import TurnOrder from "~/components/infoContent/TurnOrder";
 
 const GameSetup: NextPage = () => {
 
@@ -21,6 +22,7 @@ const GameSetup: NextPage = () => {
                     Start and Setup
                 </div>
 
+                <TurnOrder />
                 <ChoosingElementsBasics />
                 <TilesCardsBasics />
                 <MapSetupBasics />

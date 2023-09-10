@@ -80,8 +80,13 @@ const LandPassive = () => {
 
     return (
         <>
-            <div className="text-center font-semibold">Practice Moving & Attacking as Land</div>
-            <div>Click on Land and then click on the tile you want to move to. Move next to Metal to attack.</div>
+            <div className="text-center font-semibold">Shifty Sands Demo</div>
+            <div>Click on the Land icon and then click on the tile you want to move to.</div>
+            <div>Notice how many brown tiles you can move through, compared to the other gods.</div>
+            <div>Move next to Metal and then Click the Attack button to attack it.</div>
+            <div>Notice that Metal loses 3 Health with each attack.</div>
+            <div>You can click the Reset button to restart the demo.</div>
+            <div>In the game you can only attack once per turn, but this demo lets you see multiple attacks.</div>
 
             <div className="max-w-sm mx-auto my-2 p-1 bg-slate-800 rounded-lg relative">
                 <div className="flex">

@@ -29,7 +29,7 @@ const MapSetupBasics = () => {
             {numPlayers === '2' &&
             <>
                 <p>
-                    Get 17 W, 3 C1, 2 C2, 1 C3, and 2 PS cards and arrange them link this
+                    Get 17 W, 3 C1, 2 C2, 1 C3, and 2 PS cards and arrange them like this
                 </p>
                 <table className="map-diagram mx-auto">
                     <tbody>
@@ -46,7 +46,7 @@ const MapSetupBasics = () => {
             {numPlayers === '3' &&
             <>
                 <p>
-                    Get 21 W, 4 C1, 3 C2, 1 C3, and 3 PS cards and arrange them link this
+                    Get 21 W, 4 C1, 3 C2, 1 C3, and 3 PS cards and arrange them like this
                 </p>
                 <table className="map-diagram mx-auto">
                     <tbody>
@@ -82,7 +82,7 @@ const MapSetupBasics = () => {
             {numPlayers === '5' &&
             <>
                 <p>
-                    Get 28 W, 5 C1, 4 C2, 2 C3, 1 C4, and 5 PS cards and arrange them link this
+                    Get 28 W, 5 C1, 4 C2, 2 C3, 1 C4, and 5 PS cards and arrange them like this
                 </p>
                 <table className="map-diagram mx-auto">
                     <tbody>
